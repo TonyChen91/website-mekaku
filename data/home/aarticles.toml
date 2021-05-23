@@ -1,0 +1,27 @@
+[[list]]
+    title = "手札類"
+    myConnect = "categories/手札/"
+    image = "https://picsum.photos/600/550"
+    text = """
+        這邊是Tony x Frank 共同所寫的手札，分享各式各樣的故事!
+        給喜歡探索和發現的你!
+    """
+[[list]]
+    title = "升學類"
+    myConnect = "categories/升學/"
+    image = "https://picsum.photos/550/500"
+    text = """
+        好多學弟妹問我該如何準備考試。
+        有鑑於網路上的部落格會有廣告安擾，
+        加上Tony我喜歡有自己的小宇宙。
+        所以在這邊分享我的升學之路!
+    """
+  [[list]]
+    title = "其他類"
+    myConnect = "categories/其他/"
+    image = "https://picsum.photos/500/450"
+    text = """
+        這一部分的文章，可能是流星的碎片剝落而成。
+        很雜、很亂、很跳躍
+        或許不久就會被刪掉或是被歸類?!
+    """

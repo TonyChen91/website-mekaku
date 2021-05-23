@@ -1,0 +1,29 @@
+title = "人生就像鐘擺一樣"
+
+text = """
+我是Frank，喜歡文史哲類，研究西方哲學和國學，
+然後選擇工科學校就讀
+矛盾嗎？反正活著的矛盾遠比這種小事大
+在乎又有何用
+
+
+"""
+
+[[link]]
+    icon = "fab fa-github"
+    url = "#"
+[[link]]
+    icon = "fab fa-twitter"
+    url = "#"
+[[link]]
+    icon = "fas fa-envelope"
+    url = "#"
+[[link]]
+    icon = "fab fa-instagram"
+    url = "#"
+[[link]]
+    icon = "fab fa-facebook"
+    url = "https://www.facebook.com/profile.php?id=100006686837189"
+
+[[Picture]]
+    url = "https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.6435-9/70020437_2732979433601591_5619876187540029440_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=OKnPtu2e5FsAX8VvyHY&_nc_ht=scontent.ftpe7-2.fna&oh=f6d5f5e0ab3d3a35bd2802949de7d858&oe=60CF2EF2"

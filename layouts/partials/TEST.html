@@ -1,0 +1,16 @@
+<html>
+<body >
+
+     {{ range .Site.RegularPages }}
+     <div style=" border: 1px solid black; margin:20px; padding:10px; ">
+          <div style="font-size:20px;">
+               <a href="{{.Permalink}}">{{.Title}}</a>
+          </div>
+          <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+          <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<i class="fas fa-folder fa-fw"></i><strong>分類:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+          <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<i class="fas fa-tag fa-fw"></i><strong>標籤:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+
+     </div>
+     {{ end }}
+</body>
+</html>

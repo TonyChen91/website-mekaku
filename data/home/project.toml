@@ -1,0 +1,29 @@
+[[list]]
+    title = "裝作大人的作戰計畫"
+    myConnect = "404.html"
+    image = "https://picsum.photos/300/200"
+    text = """
+        此計畫是由Tony提出，目的...目的是為了使自己不被大人討厭。
+        在炎炎夏日，大家一起躲在秘密基地裡討論如何裝作一位成熟的大人吧!
+    """
+[[list]]
+    title = "大家來舉辦線上讀書會!!!"
+    myConnect = "404.html"
+    image = "https://picsum.photos/400/350"
+    text = """
+        Tony和Frank相邀大家來參加線上讀書會!!!
+        時間還未定，預計以線上會議的方式參加。
+        詳細活動內容請見內文!!! 免費參加!!!
+    """
+[[list]]
+    title = " 徵招: 架設Minecraft伺服器"
+    myConnect = "404.html"
+    image = "https://picsum.photos/350/300"
+    text = """
+            Tony從以前就有一個夢想。
+            那就是在Minecraft架設RPG伺服器，
+            你會問: 那網路上不是已經有很多了嗎?
+            不，我們要架設的，是每個人可以自訂義技能的伺服器。
+            Tony會架Server/Plugin/Bukkit，但不會Mod阿!
+            需要你的幫忙!!!
+    """

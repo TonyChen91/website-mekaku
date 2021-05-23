@@ -1,0 +1,43 @@
+<body >
+<main class="container mx-auto mt-8 px-4 xl:px-0">
+     <section id="Allarticles" class="mt-12">
+        <div class="md:flex justify-center">
+              {{ partial "home_title" (dict "title" "所有文章") }}
+        </div>
+         <div
+             class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+         >
+         {{ range .Site.RegularPages }}
+                <div class="w-full rounded overflow-hidden shadow-lg">
+                    <a href="{{.Permalink}}">
+                    {{if .Params.image}}
+                    <img
+                        class="w-full h-48"
+                        src="{{.Params.image}}"
+                    />
+                    {{else}}
+                    <img
+                        class="w-full h-48"
+                        src="https://picsum.photos/550/501"
+                    />
+                    {{end}}
+                    </a>
+                <div class="px-6 py-4">
+                  <!--這邊小標題-->
+                      <div class="font-bold text-xl mb-2"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+                  <!---->
+                      <div style="color:grey; font-size:16px;">
+                      {{ if .Params.categories }}<i class="fas fa-folder fa-fw"></i><strong>分類:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>     {{end}}{{end}}
+                      {{ if .Params.tags }}<i class="fas fa-tag fa-fw"></i><strong>標籤:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
+                     </div>
+                     <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+                      <p class="text-gray-700 text-base">
+                          {{ truncate 100 .Summary}}
+                      </p>
+                    </div>
+            </div>
+           {{ end }}
+       </div>
+     </section>
+  </main>
+</body>

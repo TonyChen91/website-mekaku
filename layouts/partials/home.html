@@ -1,0 +1,133 @@
+<div>
+  {{ $data := .Site.Data.home }}
+  <main class="container mx-auto mt-8 px-4 xl:px-0">
+
+  <div id="about" class="md:flex justify-center">
+      {{ partial "home_title" (dict "title" "關於我們") }}
+  </div>
+  <br><br><br>
+  <section class="md:flex justify-around" >
+<!--以下是陳宥任-->
+          <div class="my-auto md:mr-4">
+              <div style="display: block; width: 100px; height: 100px; overflow: hidden; border-radius: 100px; text-align: center" >
+            <a href="https://www.facebook.com/profile.php?id=100007417927404">
+            {{ range $data.aboutTony.Picture }}
+            <img alt="Tony Chen" src="{{.url}}" width="128" height="128"></a>{{end}}
+              </div>
+              <div class="mt-3 gap-3 text-xl">
+          {{ range $data.aboutTony.link }}
+          <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
+              </div>
+
+          </div>
+          <div class="mt-4 md:mt-0 md:ml-4" >
+        <div class="text-2xl font-bold">
+          {{ if $data.aboutTony.title }}{{$data.aboutTony.title}}{{else}}It goes wrong{{end}}
+        </div>
+        <div class="text-lg mt-3">
+          <div>
+            {{ if $data.aboutTony.text}}{{ replace $data.aboutTony.text "\n" "<br />" | safeHTML }}
+            {{else}}It goes wrong{{end}}
+          </div>
+        </div>
+          </div>
+<!--以下是修方良-->
+      <div class="my-auto md:mr-4">
+        <div style="display: block; width: 100px; height: 100px; overflow: hidden; border-radius: 100px; text-align: center" >
+            <a href="https://www.facebook.com/profile.php?id=100006686837189">
+            {{ range $data.aboutFrank.Picture }}
+            <img alt="Frank Hsui" src="{{ .url }}" width="128" height="128"></a>{{end}}
+        </div>
+        <div class="mt-3 gap-3 text-xl">
+          {{ range $data.aboutFrank.link }}
+          <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
+        </div>
+
+      </div>
+      <div class="mt-4 md:mt-0 md:ml-4">
+        <div class="text-2xl font-bold">
+          {{ if $data.aboutFrank.title }}{{$data.aboutFrank.title}}{{else}}It goes wrong{{end}}
+        </div>
+        <div class="text-lg mt-3">
+          <div>
+            {{ if $data.aboutFrank.text}}{{ replace $data.aboutFrank.text "\n" "<br />" | safeHTML }}
+            {{else}}It goes wrong{{end}}
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+<!--這邊是活動這邊是活動-->
+    <section id="projects" class="mt-12">
+      <div class="md:flex justify-center">
+        {{ partial "home_title" (dict "title" "活動計畫") }}
+      </div><br>
+
+      {{if $data.project.list}}
+      <div
+        class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 "
+      >
+        {{ range $data.project.list }}
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <a href="{{ .myConnect }}">
+            <img
+            class="w-full h-48"
+            src="{{ .image }}"
+            alt="Sunset in the mountains"
+            />
+          </a>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2"><a href="{{ .myConnect }}">{{ .title }}</a></div>
+            <p class="text-gray-700 text-base">
+              {{ .text }}
+            </p>
+          </div>
+        </div>
+        {{end}}
+      </div>
+      {{else}}
+          <div class="mt-4 text-xl text-center">Projects does not exist</div>
+      {{end}}
+    </section>
+
+
+
+<!--這邊是文章分類這邊是文章文章文章文章文章文章-->
+    <section id="aarticles" class="mt-12">
+      <div class="md:flex justify-center">
+        {{ partial "home_title" (dict "title" "文章分類") }}
+      </div><br>
+
+      {{if $data.aarticles.list}}
+      <div
+        class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+      >
+        {{ range $data.aarticles.list }}
+        <div class="w-full rounded overflow-hidden shadow-lg">
+          <a href="{{ .myConnect }}">
+            <img
+            class="w-full h-48"
+            src="{{ .image }}"
+            alt="Sunset in the mountains"
+            />
+          </a>
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2"><a href="{{ .myConnect }}">{{ .title }}</a></div>
+            <p class="text-gray-700 text-base">
+              {{ .text }}
+            </p>
+          </div>
+        </div>
+        {{end}}
+      </div>
+      {{else}}
+          <div class="mt-4 text-xl text-center">Projects does not exist</div>
+      {{end}}
+    </section>
+
+
+
+
+  </main>
+</div>
