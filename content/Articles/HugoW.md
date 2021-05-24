@@ -5,5 +5,5 @@ draft: false
 author: "Tony"
 categories: ["手札"]
 tags: ["程式"]
-image: "https://photo.minwt.com/img/Content/webdesign/hugo-to-win/hugo-to-win_00.jpg"
+image: "https://chupai.github.io/images/covers/200316_hugo.png"
 ---

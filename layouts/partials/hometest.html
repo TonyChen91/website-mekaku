@@ -19,11 +19,12 @@
       class="wave wave4"
       style="background-image: url('{{ .Site.BaseURL }}/img/wave.png');"
     ></div>
+    <!--首頁標題-->
     <div class="centerAll">
-      <div class="title text-6xl font-bold text-center">
+      <div class="title text-6xl font-bold text-center " style=" font-size: 10vmin">
         {{if  $.Site.Params.maintitle }}{{ $.Site.Params.maintitle }}{{else}}Hello, World{{end}}
       </div>
-      <div class="text text-xl text-center">{{if $.Site.Params.maintext}}{{ $.Site.Params.maintext }}{{else}}Edit config.toml/params{{end}}</div>
+      <div class="text text-xl text-center" style=" font-size: 3.5vmin">{{if $.Site.Params.maintext}}{{ $.Site.Params.maintext }}{{else}}Edit config.toml/params{{end}}</div>
     </div>
   </div>
 </div>

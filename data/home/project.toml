@@ -1,29 +1,28 @@
 [[list]]
-    title = "裝作大人的作戰計畫"
-    myConnect = "404.html"
-    image = "https://picsum.photos/300/200"
+    title = "讀書分享會 Reading Not Alone"
+    myConnect = "https://www.facebook.com/ReadingNotAlone"
+    image = "https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.6435-9/120410660_204079591099576_9007819636990267952_n.png?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=iYgxfkGy4m8AX9VJHf4&_nc_ht=scontent.ftpe7-4.fna&oh=00894f13385e977ba7bf3d00e9375841&oe=60D23E62"
     text = """
-        此計畫是由Tony提出，目的...目的是為了使自己不被大人討厭。
-        在炎炎夏日，大家一起躲在秘密基地裡討論如何裝作一位成熟的大人吧!
+        ▌六張犁站/麟光站附近咖啡廳
+        ▌固定每月第二或第三個星期四晚間舉辦
+        ▌無需事先準備。由兩位講者分享，其他參與者聆聽、自由討論
     """
 [[list]]
     title = "大家來舉辦線上讀書會!!!"
     myConnect = "404.html"
-    image = "https://picsum.photos/400/350"
+    image = "https://techcrunch.com/wp-content/uploads/2019/02/GettyImages-865109088.jpg?w=730&crop=1"
     text = """
         Tony和Frank相邀大家來參加線上讀書會!!!
         時間還未定，預計以線上會議的方式參加。
         詳細活動內容請見內文!!! 免費參加!!!
     """
 [[list]]
-    title = " 徵招: 架設Minecraft伺服器"
+    title = " Minecraft TRPG 伺服器架設計畫"
     myConnect = "404.html"
-    image = "https://picsum.photos/350/300"
+    image = "https://cdn.hytale.com/variants/blog_cover_7c18e0c12c0588073edd90aa6ced6791_landscape_generation_header.png"
     text = """
             Tony從以前就有一個夢想。
-            那就是在Minecraft架設RPG伺服器，
-            你會問: 那網路上不是已經有很多了嗎?
-            不，我們要架設的，是每個人可以自訂義技能的伺服器。
-            Tony會架Server/Plugin/Bukkit，但不會Mod阿!
-            需要你的幫忙!!!
+            那就是在Minecraft架設類似TRPG的伺服器，
+            每個人可以自訂義技能的伺服器。
+            可惜Tony只會架Server/Plugin/Bukkit，不會Mod。
     """
