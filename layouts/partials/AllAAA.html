@@ -8,13 +8,15 @@
              class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
          >
          {{ range .Site.RegularPages }}
-                <div class="w-full rounded overflow-hidden shadow-lg">
+            <div class="hover:bg-gray-300 hover:shadow-2xl transition duration-200 w-full rounded overflow-hidden shadow-lg ">
                     <a href="{{.Permalink}}">
                     {{if .Params.image}}
+                    <div class="transform hover:scale-110 transition duration-200">
                     <img
                         class="w-full h-48"
                         src="{{.Params.image}}"
                     />
+                    </div>
                     {{else}}
                     <img
                         class="w-full h-48"
@@ -24,7 +26,7 @@
                     </a>
                 <div class="px-6 py-4">
                   <!--這邊小標題-->
-                      <div class="font-bold text-xl mb-2"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+                      <div class="hover:text-gray-600 transition duration-500 font-bold text-xl mb-2"><a href="{{.Permalink}}">{{ .Title }}</a></div>
                   <!---->
                       <div style="color:grey; font-size:16px;">
                       {{ if .Params.categories }}<i class="fas fa-folder fa-fw"></i><strong>分類:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>     {{end}}{{end}}
@@ -34,7 +36,7 @@
                       <p class="text-gray-700 text-base">
                           {{ truncate 100 .Summary}}
                       </p>
-                    </div>
+                </div>
             </div>
            {{ end }}
        </div>

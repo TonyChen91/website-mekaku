@@ -2,14 +2,16 @@ baseURL = "https://TonyChen91.github.io/"
 languageCode = "en-us"
 title = "Mekaku's Site"
 DisqusShortname= "TonyChen91"
+
 #theme = ""
 #publishDir = "public"
 
 [params]
     mainbg = "https://picsum.photos/1920/1080" #是主頁面圖片
-    name = "陳宥任偉大的嘗試"
+    name = "MEKAKU'S SITE 陳的偉大嘗試"
     mainTitle = "夏時紀錄" #主標
     mainText = "Tony x Frank 說書小站" #副標
+    Version = "1.2"
 
 [menus]
     [[menu.main]]
