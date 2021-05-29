@@ -3,6 +3,8 @@ title: "台灣疫情逐步失控紀錄"
 date: 2021-05-29T12:10:05+08:00
 draft: false
 author: "TonyChen"
+categories: ["其他"]
+tags: ["疫情", "紀錄"]
 ---
 2/00- **{{< mcolor green>}}蘇貞昌{{< /mcolor >}}**: 已經向國外採購到2000萬劑疫苗，最快可以在今年第一季起陸續供應  
 3/03- 第一批AZ疫苗抵台11.7萬劑 [(連結點此)](https://www.commonhealth.com.tw/article/83781)  
@@ -56,18 +58,19 @@ author: "TonyChen"
 &emsp;&emsp;&emsp;**{{< mcolor lightblue>}}柯文哲{{< /mcolor >}}**：僅15萬劑是做大內宣、政治大於實質意義     
 &emsp;&emsp;&emsp;**{{< mcolor green>}}顏若芳{{< /mcolor >}}**在臉書發文表示，只有15萬劑是因為一次來太多很難消化完  
 &emsp;&emsp;&emsp;醫護人員: 流感接種都是一天30萬劑!   
-&emsp;&emsp;&emsp;網軍**{{< mcolor green>}}林偉豐{{< /mcolor >}}**(指導教授**{{< mcolor green>}}范雲{{< /mcolor >}}**)被網友抓包自導自演，詆毀國民黨，**{{< mcolor green>}}眼球電視台{{< /mcolor >}}**火速切割[(連結點此)](https://tw.appledaily.com/local/20210525/G5GPMK6AU5BFDJFSL5X74VXIR4/)
+&emsp;&emsp;&emsp;網軍**{{< mcolor green>}}林瑋豐{{< /mcolor >}}**(指導教授**{{< mcolor green>}}范雲{{< /mcolor >}}**)被網友抓包自導自演，詆毀國民黨，**{{< mcolor green>}}眼球電視台{{< /mcolor >}}**火速切割[(連結點此)](https://tw.appledaily.com/local/20210525/G5GPMK6AU5BFDJFSL5X74VXIR4/)
 &emsp;&emsp;&emsp;日本願意捐贈國內沒人要的.快過期的AZ給台灣  
 &emsp;&emsp;&emsp;佛光山願意捐贈嬌生疫苗    
 &emsp;&emsp;&emsp;**{{< mcolor blue>}}郭台銘{{< /mcolor >}}**願意捐贈上海BNT疫苗             
 5/29- 320本土案例 166校正回歸 21死   
-&emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**: 是**{{< mcolor green>}}陳宗彥{{< /mcolor >}}**(無公衛背景.東海化學系.成大建築系)主持3+11會議      
+&emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**: 是**{{< mcolor green>}}陳宗彥{{< /mcolor >}}**(無公衛背景.東海化學系.成大建築系)主持3+11會議  
+&emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**晚間: 這個3+11責任我扛       
 \
 \
 **Tony我對台灣超級失望，過去一年台灣到底領先了別人甚麼?  
 台灣丟臉到要用民間的力量去買疫苗、撿別人不要的疫苗?     
 台灣現在花錢廣設快篩站，不如當初把錢拿去買疫苗?  
-陳時中已經很辛苦了，不要怪他，人總有疏失?  
+指揮中心已經很辛苦了，不要怪他們，人總有疏失?  
 那我以後當醫師救了100個人然後把手術刀忘在病人體內和你說我已經很辛苦了  
 根本操前(線人員)部屬   
 那些網軍還在腦文章，看了就爆氣  
