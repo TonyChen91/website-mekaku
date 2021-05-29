@@ -22,7 +22,9 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 5/25- Tailwind優化首頁hover視覺  
 &emsp;&emsp;&emsp;Footer add -Version text  
 &emsp;&emsp;&emsp;Add Viewers counter on webhistory page.  
-&emsp;&emsp;&emsp;**Version 1.2 Release.**   
+&emsp;&emsp;&emsp;**Version 1.2 Release.**
+5/26- 被化奧還有MC-動力機械Mod耽誤的Tony.     
+5/29- **Version 1.3 Release.**  
 \
 \
 **未完成清單**  

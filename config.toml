@@ -11,7 +11,7 @@ DisqusShortname= "TonyChen91"
     name = "MEKAKU'S SITE 陳的偉大嘗試"
     mainTitle = "夏時紀錄" #主標
     mainText = "Tony x Frank 說書小站" #副標
-    Version = "1.2"
+    Version = "1.3"
 
 [menus]
     [[menu.main]]
