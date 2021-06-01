@@ -7,8 +7,12 @@ categories: ["其他"]
 tags: ["疫情", "紀錄"]
 image: "https://www.eetasia.com/wp-content/uploads/sites/2/2020/04/745b19a1-e84a-423a-8396-31041d28b39e.png"
 ---
-**1. TMD, 國台辦說有需求就願意給疫苗，但是陸委會說不要假好心，  
-你TMD怎麼對得起現在的醫護人員?  
+**
+0. 台灣過去一年功勞都陳時中?   
+明明就是一流人民自己的自律。   
+\
+1. TMD, 國台辦說有需求就願意給疫苗，但是陸委會說不要假好心，    
+你TMD怎麼對得起現在的醫護人員?    
 \
 2. 再來，我們領先別人一年，但是還沒有疫苗是怎樣?  
 疫苗我們沒錢買嗎? 不是說4100億的預算? 錢哩?  
@@ -36,8 +40,11 @@ image: "https://www.eetasia.com/wp-content/uploads/sites/2/2020/04/745b19a1-e84a
 為什麼不可以? 你TMD有甚麼權利Say NO ?  
 台灣不是號稱民主嗎? 民主進步啊?   
 \
-9. TMD蔡政府要我們等一支不確定的台產疫苗到8月   
-用百姓的生命來炒股，這就是台灣人選出來的政府       
+9. TMD蔡政府要我們等一支不確定的台產疫苗到8月      
+用百姓的生命來炒股，這就是台灣人選出來的政府。     
+看看那些在醫院的醫療人員和病患  
+直到現在還一個道歉都沒有，整天還在中共和人民素質問題    
+這不是甩鍋轉移焦點是甚麼???              
 \
 10. 我看到高端跌停了(5/31)，笑死**  
 \
@@ -86,7 +93,7 @@ image: "https://www.eetasia.com/wp-content/uploads/sites/2/2020/04/745b19a1-e84a
 5/25- 281本土案例 263校正回歸 6死  
 5/26- 302本土案例 331校正回歸 11死  
 &emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**: 沒有醫療崩潰，只是緊張  
-&emsp;&emsp;&emsp;台大醫院院長吳明賢昨在臉書貼文「Hospitals Need Help」
+&emsp;&emsp;&emsp;台大醫院院長吳明賢昨在臉書貼文「Hospitals Need Help」  
 &emsp;&emsp;&emsp;**{{< mcolor lightblue>}}柯文哲{{< /mcolor >}}**：在沒有疫苗，北市自謀生路   
 &emsp;&emsp;&emsp;**{{< mcolor green>}}蔡英文{{< /mcolor >}}**: 中國介入，遲延到現在都無法簽約BNT        
 5/27- 401本土案例 266校正回歸 13死   
@@ -100,8 +107,8 @@ image: "https://www.eetasia.com/wp-content/uploads/sites/2/2020/04/745b19a1-e84a
 &emsp;&emsp;&emsp;日本願意捐贈國內沒人要的.快過期的AZ給台灣  
 &emsp;&emsp;&emsp;佛光山願意捐贈嬌生疫苗    
 &emsp;&emsp;&emsp;**{{< mcolor blue>}}郭台銘{{< /mcolor >}}**願意捐贈上海BNT疫苗             
-5/29- 320本土案例 166校正回歸 21死   
+5/29- 320本土案例 166校正回歸 21死     
 &emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**: 是**{{< mcolor green>}}陳宗彥{{< /mcolor >}}**(無公衛背景.東海化學系.成大建築系)主持3+11會議  
-&emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**晚間: 這個3+11責任我扛  
-5/30- 各縣市要求中央開放民間.企業自行購買疫苗，中央不許  
+&emsp;&emsp;&emsp;**{{< mcolor green>}}陳時中{{< /mcolor >}}**晚間: 這個3+11責任我扛    
+5/30- 各縣市要求中央開放民間.企業自行購買疫苗，中央不許   
 &emsp;&emsp;&emsp;佛光山法師: 痛心          
