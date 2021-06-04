@@ -27,7 +27,8 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 5/29- Fixed Articles' Pictures Center.  
 &emsp;&emsp;&emsp;New Articles.  
 &emsp;&emsp;&emsp;**Version 1.3.1 Release.**
-5/32- **Version 1.3.2 Release.** 
+5/32- **Version 1.3.2 Release.**
+6/04- **Version 1.3.3 Release.**
 \
 \
 **未完成清單**  
