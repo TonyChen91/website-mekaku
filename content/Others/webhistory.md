@@ -3,6 +3,7 @@ title: "網頁日誌"
 date: 2021-01-01T15:12:58+08:00
 draft: false
 author: "Tony"
+categories: ["其他"]
 image: "https://cdn.discordapp.com/attachments/704599857083449366/722677588484423721/luca-bravo-XJXWbfSo2f0-unsplash_1.jpg"
 ---
 5/20- 嘗試將空白網頁放置在Github上     
@@ -35,13 +36,14 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 \
 **未完成清單**  
 - [ ] 將文章的照片等比例縮放  
-- [ ] 設置活動頁面  
+- [ ] 設置活動頁面    
 - [ ] 手機版網頁顯示問題  
 - [X] 研究Tailwind語法
-- [ ] 看Mooc的普通化學  
-- [ ] 為ReadingNotAlone寫網頁
+- [X] 看Mooc的普通化學  
+- [ ] 為ReadingNotAlone寫網頁  
+- [ ] 為Scumco寫網頁  
 - [ ] 等待Frank的稿    
 **已知Bugs**  
 - [ ] 在list頁手機板問題
 - [X] Nav的引導以及手機板問題(最下策解決方式)
-- [ ] 所有文章->最新文章
+- [X] 所有文章->最新文章

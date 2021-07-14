@@ -7,7 +7,7 @@
          <div
              class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
          >
-         {{ range .Site.RegularPages.ByDate.Reverse }}
+         {{ range ( first 3 ( .Site.RegularPages ).ByDate.Reverse ) }}
             <div class="hover:bg-gray-300 hover:shadow-2xl transition duration-200 w-full rounded overflow-hidden shadow-lg ">
                     <a href="{{.Permalink}}">
                     {{if .Params.image}}
