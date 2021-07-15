@@ -1,8 +1,8 @@
 ---
-title: "分享一下最近聽到很好聽的歌"
+title: "黃詩扶-人間不值得: 背後的典故"
 date: 2021-06-04T16:14:05+08:00
 draft: false
-categories: ["其他"]
+categories: ["手札"]
 tags: ["心得"]
 image: "/img/piviv.jpg"
 ---
