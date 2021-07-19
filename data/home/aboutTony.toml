@@ -24,4 +24,4 @@ text = """
     icon = "fab fa-facebook"
     url = "https://www.facebook.com/profile.php?id=100007417927404"
 [[Picture]]
-    url = "https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.6435-9/123585971_2814123475511556_9139747154127665519_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=b047ZT4-_lIAX867ksf&_nc_ht=scontent.ftpe7-4.fna&oh=8a992c243a8460e3d75e342ea391f93e&oe=60F405E3"
+    url = "/img/TonyP.jpg"
