@@ -9,7 +9,8 @@
     """
 [[list]]
     title = "線上讀書會: 格雷的畫像、深井效應"
-    myConnect = "404.html"
+    #myConnect = "404.html" 
+    myConnect = "https://www.facebook.com/events/501250487766377?ref=newsfeed"
     image = "/img/RNA2.jpg"
     text = """
         Reading Not Alone的成員相邀大家來參加線上讀書會!!!
@@ -18,7 +19,7 @@
     """
 [[list]]
     title = " 單推百鬼綾目"
-    myConnect = "404.html"
+    myConnect = "https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg"
     image = "https://i.ytimg.com/vi/z1W4c7ym49Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCcuYDDJu3aL3rC1PXZsOk3rbfEow"
     text = """
         身為百鬼組的一員。
