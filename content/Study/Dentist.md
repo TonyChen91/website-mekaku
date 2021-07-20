@@ -22,7 +22,7 @@ image: "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2020/1
 \
 **穿著:** 我穿正式西裝G2000買的。  
 \
-**交通:** 我坐高鐵轉計程車。YA  
+**交通:** 我坐高鐵轉計程車。  
 \
 **結果:{{< mcolor red>}} 正9 {{< /mcolor >}}** 。  
 \
