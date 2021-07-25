@@ -26,8 +26,12 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 尚須研究Hugo/CSS/markdown這邊沒有  
 &copy; 這是符號  
 分隔線
-***  
+***   
+# This is an H1  
 
+## This is an H2  
+
+###### This is an H6  
 > 引言失敗不知道為什麼。
 
 - [ ] 代辦事項

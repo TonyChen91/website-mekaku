@@ -1,17 +1,14 @@
 title = "人生就像鐘擺一樣"
 
 text = """
-我是Frank，喜歡文史哲類，研究西方哲學和國學，
-然後選擇工科學校就讀
-矛盾嗎？反正活著的矛盾遠比這種小事大
-在乎又有何用
-
-
+我是Frank，喜歡研究西方哲學和國學，
+然後選擇工科學校就讀。矛盾嗎？
+反正活著的矛盾遠比這種小事大，在乎又有何用?
 """
 
 [[link]]
     icon = "fab fa-github"
-    url = "#"
+    url = "https://github.com/choshu"
 [[link]]
     icon = "fab fa-twitter"
     url = "#"
