@@ -12,7 +12,7 @@
     title = "線上跑團TRPG: 介紹+歷史紀錄+筆記"
     #myConnect = "404.html"
     myConnect = "/projects/trpg/"
-    image = "https://s.yimg.com/ob/image/a0588262-180d-4439-bb28-5fe19d9d2505.jpg"
+    image = "/img/TRPG.jpg"
     text = """
         ▌線上GatherTown方式免費參加
         ▌時間為每星期日下午14:30，無須每次都參與

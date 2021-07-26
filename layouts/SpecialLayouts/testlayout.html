@@ -1,0 +1,16 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>測試用layout</title>
+</head>
+    <body>
+        <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
+            {{ .Title }}
+            <br><br>
+            <div style="color:grey; font-size:16px;">日期: {{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+            <div style="color:grey; font-size:16px;">{{if .Params.author}} 作者: {{.Params.Author}}{{end}}</div>
+            <hr><br>
+            <div>{{.Content}}</div>
+        </div>
+    </body>
+</html>

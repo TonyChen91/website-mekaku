@@ -1,5 +1,5 @@
 ---
-title: "教學: 如何使用Hugo在Github部署網站?"
+title: "教學: 如何使用Hugo在Github架網站?"
 date: 2021-06-04T16:19:20+08:00
 draft: false
 author: "Tony"

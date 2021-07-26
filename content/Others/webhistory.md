@@ -34,11 +34,17 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 7/14- Fixed pictures.  
 7/15- Add new features.    
 &emsp;&emsp;&emsp;Add RecentPost.  
-&emsp;&emsp;&emsp;**Version 1.3.4 Release.**  
+&emsp;&emsp;&emsp;**Version 1.3.4 Release.**    
+7/23- Driving class open.  
 7/25- Fixed AboutUs.    
 &emsp;&emsp;&emsp;Navibar En->Ch.  
 7/26- Add new categories of projects/author.   
-&emsp;&emsp;&emsp;**Version 1.4.0 Release.**    
+&emsp;&emsp;&emsp;Add favicon.  
+&emsp;&emsp;&emsp;Add new layout.  
+&emsp;&emsp;&emsp;Add new testpages.  
+&emsp;&emsp;&emsp;New articles are coming soon.    
+&emsp;&emsp;&emsp;Remove javascript temporarily.  
+&emsp;&emsp;&emsp;**Version 1.4.0 Release.**     
 \
 \
 **未完成清單**  
