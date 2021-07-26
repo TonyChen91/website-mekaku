@@ -2,18 +2,20 @@
   {{ $data := .Site.Data.home }}
   <main class="container mx-auto mt-8 px-4 xl:px-0">
 
+  <br><br><br><br>
   <div id="about" class="md:flex justify-center">
       {{ partial "home_title" (dict "title" "關於我們") }}
   </div>
   <br>
       {{ partial "About.html" . }}
-  <br>
+  <br><br><br><br>
 
 <!--這邊是活動這邊是活動-->
     <section id="projects" class="mt-12" style="margin: 20px">
       <div class="md:flex justify-center">
         {{ partial "home_title" (dict "title" "活動計畫") }}
-      </div><br>
+      </div>
+  <br>
 
       {{if $data.project.list}}
       <div
@@ -45,7 +47,7 @@
     </section>
 
 
-<br>
+<br><br><br><br>
 <!--這邊是文章分類這邊是文章文章文章文章文章文章-->
     <section id="aarticles" class="mt-12" style="margin: 20px">
       <div class="md:flex justify-center">
@@ -84,4 +86,4 @@
     </section>
   </main>
 </div>
-<br>
+<br><br><br><br>

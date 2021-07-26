@@ -14,7 +14,7 @@ text = """
     url = "#"
 [[link]]
     icon = "fas fa-envelope"
-    url = "#"
+    url = "mailto:tonychen8382@gmail.com"
 [[link]]
     icon = "fab fa-instagram"
     url = "https://www.instagram.com/tonychen8382/"

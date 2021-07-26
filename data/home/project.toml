@@ -3,19 +3,20 @@
     myConnect = "https://www.facebook.com/ReadingNotAlone"
     image = "/img/RNA.png"
     text = """
-        ▌六張犁站/麟光站附近咖啡廳
+        ▌線上Team-Meeting方式參加
         ▌固定每月第二或第三個星期四晚間舉辦
         ▌無需事先準備。由兩位講者分享，其他參與者聆聽、自由討論
     """
+  #  ▌六張犁站/麟光站附近咖啡廳
 [[list]]
-    title = "線上讀書會: 格雷的畫像、深井效應"
-    #myConnect = "404.html" 
-    myConnect = "https://www.facebook.com/events/501250487766377?ref=newsfeed"
-    image = "/img/RNA2.jpg"
+    title = "線上跑團TRPG: 介紹+歷史紀錄+筆記"
+    #myConnect = "404.html"
+    myConnect = "/projects/trpg/"
+    image = "https://s.yimg.com/ob/image/a0588262-180d-4439-bb28-5fe19d9d2505.jpg"
     text = """
-        Reading Not Alone的成員相邀大家來參加線上讀書會!!!
-        時間為7/15 19:30，以線上會議Team的方式參加。
-        詳細活動內容請見內文!!! 無須準備!!!
+        ▌線上GatherTown方式免費參加
+        ▌時間為每星期日下午14:30，無須每次都參與
+        ▌詳細活動內容、介紹、簡介請見內文!!!
     """
 [[list]]
     title = " 單推百鬼綾目"

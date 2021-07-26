@@ -5,6 +5,7 @@ draft: false
 categories: ["手札"]
 tags: ["心得"]
 image: "/img/piviv.jpg"
+hide: false
 ---
 {{< youtube v6k9usbJJTY >}}
 \

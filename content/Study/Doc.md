@@ -6,6 +6,7 @@ author: "Tony"
 categories: ["升學"]
 tags: ["學測", "面試"]
 image: "https://userscontent2.emaze.com/images/bf4fbe13-b678-4877-8944-39c404ddc21a/7915a94ded8f64ab903e3310445b230f.jpg"
+hide: false
 ---
 {{< mh 24 >}}一、整體說明{{</mh>}}  
 **慈濟醫5關MMI，每一關6分鐘，先統一讀題30分鐘再跑關，教授通常不追問。**  

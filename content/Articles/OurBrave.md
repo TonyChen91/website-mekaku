@@ -6,6 +6,7 @@ author: "Tony"
 categories: ["手札"]
 tags: ["心得"]
 image: ""
+hide: false
 ---
 # 被討厭的勇氣  
 作者: 岸見一郎.古賀史健  

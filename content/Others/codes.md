@@ -4,6 +4,7 @@ date: 2021-01-01T20:28:59+08:00
 draft: false
 author: "Tony x Frank"
 categories: ["其他"]
+hide: false
 image: "https://cdn.discordapp.com/attachments/704599857083449366/722677588484423721/luca-bravo-XJXWbfSo2f0-unsplash_1.jpg"
 ---
 使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML, 你可以使用简书或者支持Markdown的编辑器进行书写。  
