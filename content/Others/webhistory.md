@@ -45,6 +45,10 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 &emsp;&emsp;&emsp;New articles are coming soon.    
 &emsp;&emsp;&emsp;Remove javascript temporarily.  
 &emsp;&emsp;&emsp;**Version 1.4.0 Release.**     
+7/27- Brand-new page for TRPG-COC.  
+&emsp;&emsp;&emsp;Liquid-animation button effect.    
+&emsp;&emsp;&emsp;MouseClick javascript is added.    
+&emsp;&emsp;&emsp;**Version 1.4.1 Release.**  
 \
 \
 **未完成清單**  
