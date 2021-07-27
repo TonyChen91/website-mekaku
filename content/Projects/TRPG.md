@@ -7,6 +7,7 @@ categories: ["活動"]
 tags: ["TRPG"]
 image: "/img/TRPG.jpg"
 hide: false
-
+type: SpecialLayouts
+layout: TRPGlayout
 ---
 123456

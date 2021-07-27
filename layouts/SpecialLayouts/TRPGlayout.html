@@ -1,0 +1,105 @@
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<html>
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/navbar.css" />
+<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <head>
+          <title>夏時紀錄-TRPG</title>
+          <style type="text/css">
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+
+                }
+                body{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://tarotapp.s3.amazonaws.com/post/-999-0/pool/cCfO8UWGiSETajR_1599042566.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                Lbutton{
+                    position: relative;
+                    padding: 20px 50px ;
+                    display: block;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    width: 200px;
+                    overflow: hidden;
+                    border-radius: 40px;
+                    top: 35%;
+                }
+                Lbutton span{
+                    position: relative;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: lato;
+                    letter-spacing: 2px;
+                    z-index: 1;
+
+                }
+                Lbutton .liquid{
+                    position: absolute;
+                    top: -80px;
+                    left: 0;
+                    width: 200px;
+                    height: 200px;
+                    background-color: #4973ff;
+                    box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+                    transition: 0.5s all;
+                }
+                Lbutton .liquid::after,
+                Lbutton .liquid::before{
+                    content: "";
+                    width: 200%;
+                    height: 200%;
+                    top: 0;
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%, -75%);
+                    background-color: #000;
+                }
+                Lbutton .liquid::before{
+                    border-radius: 45%;
+                    background-color: rgba(20,20,20,1);
+                    animation: animate 5s linear infinite;
+                }
+                Lbutton .liquid::after{
+                    border-radius: 40%;
+                    background-color: rgba(20,20,20,0.5);
+                    animation: animate 10s linear infinite;
+                }
+                Lbutton:hover .liquid{
+                    top: -120px;
+                }
+                @keyframes animate{
+                    0%{
+                        transform: translate(-50%, -75%) rotate(0deg);
+                    }
+                    100%{
+                        transform: translate(-50%, -75%) rotate(360deg);
+                    }
+                }
+
+          </style>
+    </head>
+
+    <body>
+          <Lbutton style="transform: translate(-100px, 0%)">
+          <a style="text-decoration:none" href="https://rolladie.net/" target="_blank">
+                <span>Dice <i class="fas fa-dice"></i></span>
+                <div class="liquid"></div>
+          </a>
+          </Lbutton>
+          <Lbutton style="transform: translate(100px, 0%)">
+          <a style="text-decoration:none" href="https://docs.google.com/spreadsheets/d/1UeEZnw__nPJSJZg9DTosFwTTZSIMEZ31CMlFkKiaFL4/edit?usp=sharing" target="_blank">
+                  <span>Role <i class="fas fa-user-circle"></i></span>
+                  <div class="liquid"></div>
+          </a>
+          </Lbutton>
+    </body>
+
+</html>
