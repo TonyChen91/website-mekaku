@@ -37,7 +37,7 @@
                 Lbutton span{
                     position: relative;
                     color: #fff;
-                    font-size: 18px;
+                    font-size: 1.4em;
                     font-weight: bold;
                     font-family: lato;
                     letter-spacing: 2px;
@@ -86,33 +86,44 @@
                         transform: translate(-50%, -75%) rotate(360deg);
                     }
                 }
-
+                .gradientBG{
+                    background: linear-gradient(to bottom,#0c0c0c,#4f4f4f);
+                }
           </style>
     </head>
-    <body style="background-color: #0c0c0c">
+<body class="gradientBG">
 <sectionT>
           <div style="top:5vh; transform: scale(0.7,0.7); z-index: 2; position: absolute">
               <img src="/img/COC.png" alt="H1.Title">
           </div>
           <Lbutton style="transform: translate(-100px, 0%)">
           <a style="text-decoration:none" href="https://rolladie.net/" target="_blank">
-                <span>Dice <i class="fas fa-dice"></i></span>
+                <span>Dice<i class="fas fa-dice"></i></span>
                 <div class="liquid"></div>
           </a>
           </Lbutton>
           <Lbutton style="transform: translate(100px, 0%)">
           <a style="text-decoration:none" href="https://docs.google.com/spreadsheets/d/1UeEZnw__nPJSJZg9DTosFwTTZSIMEZ31CMlFkKiaFL4/edit?usp=sharing" target="_blank">
-                  <span>Role <i class="fas fa-user-circle"></i></span>
+                  <span>Role<i class="fas fa-user-circle"></i></span>
                   <div class="liquid"></div>
           </a>
           </Lbutton>
-
 </sectionT>
-<div style="font-size: 3vh; margin-top: 20vh; margin-bottom: 20vh; color: white; background-color: #0c0c0c; text-decoration:none; text-align: center; justify-content: center;">
-  {{ .Content }}
-</div>
-<footer style="text-align:center; background-color: #0c0c0c; color: white; padding: 2vh; font-size: 3vh">
-  <div>{{ $.Site.Params.Name }} &copy; {{ now.Format "2006" }}   Version {{ $.Site.Params.Version }}</div>
-</footer>
+      <div style="margin:0px auto; width: 80%; max-width: 750px; font-size: 1em; margin-top: 20vh; margin-bottom: 20vh; color: white; text-decoration:none; justify-content: center;">
+          <div style="color:white; font-weight:bold; font-size: 4.75vh; line-height: 6vh;">
+          {{ .Title }}
+          </div><br>
+          <div style="color:white; font-size:16px;">日期: {{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+          <hr><br>
+          <div style="line-height: 2em;">{{ .Content }}</div>
+      </div>
+      <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
+          {{ partial "disqus.html" . }}
+      </div>
+      <!--頁尾-->
+      <footer style="text-align:center; background-color: #0c0c0c; color: white; padding: 2vh; font-size: 1.2em">
+          <div>{{ $.Site.Params.Name }} &copy; {{ now.Format "2006" }}   Version {{ $.Site.Params.Version }}</div>
+      </footer>
+
 </body>
 </html>
