@@ -115,7 +115,7 @@
           </div><br>
           <div style="color:white; font-size:16px;">日期: {{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
           <hr><br>
-          <div style="line-height: 2em;">{{ .Content }}</div>
+          <div style="line-height: 2em; text-decoration: none;">{{ .Content }}</div>
       </div>
       <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
           {{ partial "disqus.html" . }}
