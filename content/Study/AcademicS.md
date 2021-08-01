@@ -5,6 +5,6 @@ draft: false
 author: "Tony"
 categories: ["升學"]
 tags: ["中研院",  "面試"]
-image: "https://newsletter.sinica.edu.tw/wp-content/uploads/2018/08/170415-2876-1-lwUae.jpg"
+image: "/img/ICOB.jpg"
 hide: false
 ---
