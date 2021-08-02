@@ -49,6 +49,10 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 &emsp;&emsp;&emsp;Liquid-animation button effect.      
 &emsp;&emsp;&emsp;MouseClick javascript is added.      
 &emsp;&emsp;&emsp;**Version 1.4.1 Release.**    
+8/01- Bugs fixed.       
+&emsp;&emsp;&emsp;New article.    
+8/02- Add shortcut-icon/ bookmark-icon.  
+&emsp;&emsp;&emsp;**Version 1.4.2 Release.**   
 \
 \
 **未完成清單**  
