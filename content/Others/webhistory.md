@@ -53,14 +53,14 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 &emsp;&emsp;&emsp;New article.    
 8/02- Add shortcut-icon/ bookmark-icon.  
 &emsp;&emsp;&emsp;**Version 1.4.2 Release.**   
+9/15- New Articles.  
 \
 \
 **未完成清單**  
-- [ ] 將文章的照片等比例縮放  
+- [X] 將文章的照片等比例縮放  
 - [X] 設置活動頁面    
 - [ ] 手機版網頁顯示問題  
 - [X] 研究Tailwind語法
-- [X] 看Mooc的普通化學  
 - [ ] 為ReadingNotAlone寫網頁  
 - [ ] 為Scumco寫網頁  
 - [ ] 等待Frank的稿  
