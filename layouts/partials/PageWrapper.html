@@ -1,0 +1,42 @@
+
+{{ $amount := 4 }}
+ <section id="Trending" class="container mx-auto mt-8 px-4 xl:px-0" >
+  <div class="page-wrapper">
+      <div class="post-slider">
+          <h1 class="md:flex justify-center" style="margin:30px auto">
+          {{ partial "home_title" (dict "title" "熱門文章") }}</h1>
+          <!--有BUG
+          <i class="fas fa-chevron-left prev"></i>
+          <i class="fas fa-chevron-right next"></i>
+          -->
+          <div class="post-wrapper">
+            {{ range ( first $amount ( .Site.RegularPages ).ByDate.Reverse ) }}
+                {{if eq .Params.hide false }}
+                <div class="post">
+                    <img src="{{.Params.image}}" class="slider-image"></img>
+                    <div class="post-info">
+                            <!--這邊小標題-->
+                            <div class="hover:text-gray-600 transition duration-500 font-bold text-xl mb-2"><a href="{{.Permalink}}">{{ truncate 18 .Title}}</a></div>
+                            <!---->
+                            <div style="color:grey; font-size:16px;">
+                            {{ if .Params.categories }}<i class="fas fa-folder fa-fw"></i><strong>分類:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{end}}{{end}}
+                            {{ if .Params.tags }}<i class="fas fa-tag fa-fw"></i><strong>標籤:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
+                            </div>
+                            <div style="color:grey; font-size:16px;"><i class="fas fa-calendar fa-fw"></i><strong>日期: </strong>{{ dateFormat "Jan 2, 2006" .Date }}</div>
+                            <p class="text-gray-700 text-base">
+                                {{ truncate 55 .Summary}}
+                            </p>
+                    </div>
+                </div>
+                {{else}}
+                {{ end }}
+           {{ end }}
+          </div>
+      </div>
+  </div>
+</section>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="/js/slick.js"></script>
+<link rel="stylesheet" href="/css/pageslick.css" />

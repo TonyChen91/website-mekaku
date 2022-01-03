@@ -53,19 +53,26 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 &emsp;&emsp;&emsp;New article.    
 8/02- Add shortcut-icon/ bookmark-icon.  
 &emsp;&emsp;&emsp;**Version 1.4.2 Release.**   
-9/15- New Articles.  
+9/15- New Articles.   
+1/02- New Articles.   
+&emsp;&emsp;&emsp;Slick added.  
+&emsp;&emsp;&emsp;**Version 1.5.0 Release.**  
 \
 \
 **未完成清單**  
-- [X] 將文章的照片等比例縮放  
+- [ ] 將文章的照片等比例縮放  
+- [ ] 文章內文圖片比例調整
+- [X] 加入動態slick清單
 - [X] 設置活動頁面    
 - [ ] 手機版網頁顯示問題  
 - [X] 研究Tailwind語法
-- [ ] 為ReadingNotAlone寫網頁  
-- [ ] 為Scumco寫網頁  
+- [ ] 為ReadingNotAlone寫網頁   
 - [ ] 等待Frank的稿  
 - [X] 所有文章->最新文章    
 **已知Bugs**  
 - [ ] 在list頁手機板問題
+- [ ] text-deco和其文字問題
+- [ ] 熱門文章對齊高度問題
+- [ ] 從IG連結進來的標題問題
 - [X] 關於我們欄位排版問題
 - [X] Nav的引導以及手機板問題(最下策解決方式)
