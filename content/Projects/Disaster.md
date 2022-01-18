@@ -1,13 +1,13 @@
 ---
-title: ""
-date: 2021-07-26T12:17:55+08:00
+title: "城中城災情整合平台"
+date: 2022-01-16T12:17:55+08:00
 draft: false
 author: ["Tony"]
 categories: ["活動"]
 tags: ["醫療"]
-image: "/img/TRPG.jpg"
+image: "/img/DM-home3B.jpg"
 hide: false
 type: SpecialLayouts
 layout: DMlayout
 ---
-各位好! 我是筆者Tony。TRPG在亞洲遠沒有在他國那麼盛行，很多人可能連TRPG的名字都沒有聽過，這一篇文章將分享我喜歡TRPG的原因，也會簡單的告訴你 :  
+受到G0V的啟發, 我們決定做一個資訊整合平台, 提供給災民以及想幫助的人一個簡單明瞭的共同編輯網頁。本網站將使用API串聯以提供第一手資訊

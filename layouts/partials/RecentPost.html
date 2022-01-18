@@ -6,7 +6,7 @@
               {{ partial "home_title" (dict "title" "最新文章") }}
         </div>
         <div
-             class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" style="margin: 50px"
+             class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" style="margin: 20px"
         >
          {{ range ( first $amount ( .Site.RegularPages ).ByDate.Reverse ) }}
             {{if eq .Params.hide false }}
