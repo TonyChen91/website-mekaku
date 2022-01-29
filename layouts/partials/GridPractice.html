@@ -1,0 +1,40 @@
+
+
+{{ $amount := 4 }}
+
+<body>
+  <main>
+    <div class="grind-container">
+        <div id="Allarticles" class="md:flex justify-center mb-8 mt-8">
+              {{ partial "home_title" (dict "title" "最新文章") }}
+        </div>
+        <div class="product-grid">
+              {{ range first 1 ( .Site.RegularPages ).ByDate.Reverse }}
+              <div class="hover:bg-gray-300 hover:shadow-2xl transition duration-200 card stacked featured">
+                <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="" class="transform hover:scale-110 transition duration-200 card__img"></a>
+                <div class="card__content">
+                  <h2 class="hover:text-gray-600 transition duration-500 card__title"><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+                  <p class="card__description">{{ truncate 25 .Summary}}</p>
+                  {{range .Params.tags}}<a style="color:orange;font-weight:bold;" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}<span style="text-align: end; color:grey; font-size:16px;">{{ dateFormat "2006/1/2" .Date }}</span>
+                </div>
+              </div>
+              {{end}}
+              {{ range first $amount (after 1 ( .Site.RegularPages ).ByDate.Reverse) }}
+              {{if eq .Params.hide false }}
+              <div class="hover:bg-gray-300 hover:shadow-2xl transition duration-200 card stacked">
+                <a href="{{.Permalink}}"><img src="{{.Params.image}}" alt="" class="transform hover:scale-110 transition duration-200 card__img"></a>
+                <div class="card__content">
+                  <h2 class="hover:text-gray-600 transition duration-500 card__title"><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+                  <p class="card__description">{{ truncate 25 .Summary}}</p>
+                  {{range .Params.tags}}<a style="color:salmon;font-weight:bold;" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}<span style="text-align: end; color:grey; font-size:16px;">{{ dateFormat "2006/1/2" .Date }}</span>
+                </div>
+              </div>
+              {{end}}
+              {{end}}
+        </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

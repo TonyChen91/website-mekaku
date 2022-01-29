@@ -1,9 +1,14 @@
 {{ $data := .Site.Data.home }}
+<br><br><br><br>
+<div id="about" class="md:flex justify-center" style="margin: 20px">
+    {{ partial "home_title" (dict "title" "關於我們") }}
+</div>
 <section class="md:flex justify-around" >
+
 <!--以下是陳宥任-->
 <figure class="bg-white rounded-xl p-8">
   <!--插入圖片連結-->
-  <img class="w-32 h-32 rounded-full mx-auto" src="/img/TonyP.jpg" alt="" width="384" height="512">
+  <img class="w-32 h-32 rounded-full mx-auto" src="/img/TonyP2.jpg" alt="" width="384" height="512">
   <div class="pt-6 text-center space-y-4">
     <blockquote>
       <p class="text-lg font-semibold">
@@ -29,7 +34,7 @@
 </figure>
 <!--以下是修方良 可用 bg-gray-100來修正-->
 <figure class="bg-white rounded-xl p-8">
-  <img class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP.jpg" alt="" width="384" height="512">
+  <img class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP2.jpg" alt="" width="384" height="512">
   <div class="pt-6 text-center space-y-4">
     <blockquote>
       <p class="text-lg font-semibold">

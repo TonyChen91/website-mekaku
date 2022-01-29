@@ -1,7 +1,7 @@
 {{ $amount := 3 }}
 <body >
 <main class="container mx-auto mt-8 px-4 xl:px-0">
-     <section id="Allarticles" class="mt-12" >
+     <section id="Allarticles" class="mt-12" > <!--margin-top: 3rem;-->
         <div class="md:flex justify-center">
               {{ partial "home_title" (dict "title" "最新文章") }}
         </div>
@@ -34,7 +34,7 @@
                       {{ if .Params.categories }}<i class="fas fa-folder fa-fw"></i><strong>分類:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>     {{end}}{{end}}
                       {{ if .Params.tags }}<i class="fas fa-tag fa-fw"></i><strong>標籤:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}
                      </div>
-                     <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+                     <div style="color:grey; font-size:16px;">{{ dateFormat "Mon, Jan 2, 2006" .Date }}</div>
                       <p class="text-gray-700 text-base">
                           {{ truncate 85 .Summary}}
                       </p>
