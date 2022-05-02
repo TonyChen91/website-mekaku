@@ -1,4 +1,13 @@
 [[list]]
+    title = "高醫密室逃脫手遊!製作中!"
+    myConnect = "#"
+    image = "/img/kmu-escape.jpg"
+    text = """
+        ▌預計2022年7月上架GooglePlay.AppleStore
+        ▌免費遊玩! 希望藉由遊戲，讓大家多認識高醫
+        ▌讓高醫成為充滿創意的地方!!!
+    """
+[[list]]
     title = "讀書分享會 Reading Not Alone"
     myConnect = "https://www.facebook.com/ReadingNotAlone"
     image = "/img/RNA.png"
