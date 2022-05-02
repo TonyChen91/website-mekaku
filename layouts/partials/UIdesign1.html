@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<body>
+    {{ $data := .Site.Data.home }}
     <section id="ProjectsSection">
         <div id="ProjectsOverflow">
+            {{ range $data.project.list }}
             <div id="projects-content-cards">
                 <div id="projects-content-card-img-groups">
                     <div id="projects-content-card-img-hover"></div>
-                    <img id="projects-content-card-img" src="/img/DM-home5.jpg"/>
+                    <img id="projects-content-card-img" src="{{ .image }}"/>
                 </div>>
-                <div id="projects-content-card-btn"><a href="">繼續閱讀</a></div>
-                <div id="projects-content-card-title">城中城災害整合平台</div>
+                <div id="projects-content-card-btn"><a href="{{ .myConnect }}">繼續閱讀 ></a></div>
+                <div id="projects-content-card-title">{{ .title }}</div>
             </div>
-            <div id="projects-content-cards">
-                <div id="projects-content-card-btn"><a href="">繼續閱讀</a></div>
-                <div id="projects-content-card-title">城中城災害整合平台</div>
-                <div id="projects-content-card-img-groups">
-                    <div id="projects-content-card-img-hover"></div>
-                    <img id="projects-content-card-img" src="/img/DM-home5.jpg"/>
-                </div>>
-            </div>
+            {{end}}   
         </div>
         <span id="SectionTitle">活動專區</span>
         <span id="SectionSeeAll">See all</span>
+        
     </section>
-</body>
+
 </html>
