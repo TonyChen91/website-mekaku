@@ -57,10 +57,15 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 1/02- New Articles.   
 &emsp;&emsp;&emsp;Slick added.  
 &emsp;&emsp;&emsp;**Version 1.5.0 Release.**  
+4/00- Work on Unity, make KMU-escape game.  
+&emsp;&emsp;&emsp;Slick failed.    
+5/14- Layout update by Figma.  
+&emsp;&emsp;&emsp;**Version 1.9.0 Release.**  
 \
 \
 **未完成清單**  
-- [X] 加入動態slick清單
+- [ ] 加入動態slick清單
+- [ ] 連動Instafeed
 - [X] 設置活動頁面    
 - [X] 研究Tailwind語法
 - [X] 文章內文圖片比例調整
