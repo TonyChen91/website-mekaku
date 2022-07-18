@@ -1,3 +1,12 @@
+
+
+<!-- 黑色navibar -->
+<script type="text/javascript">
+  window.addEventListener('scroll', ()=>{
+      const nav = document.querySelector('nav')
+      nav.classList.toggle('onscroll', window.scrollY > 0)
+  })
+</script>
 <nav class="pl-4 md:pl-24">
   <a href="{{ .Site.BaseURL }}/#mainBG" class="logo">夏時紀錄</a>
   <ul class="hidden md:flex">

@@ -20,9 +20,9 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="{{.Permalink}}"><img id="ContentCard-img" src="{{.Params.image}}"/></a>
                     </div>
+                    <div id="ContentCard-tag"><a>手札</a></div>
                     <div id="ContentCard-title"><a href="{{.Permalink}}">{{ .Title }}</a></div>
                     <div id="ContentCard-textoverflow"><p>{{ truncate 200 .Summary}}</p></div>
-                    <div id="ContentCard-tag"><a>手札</a></div>
                
             </div>
             {{end}}
