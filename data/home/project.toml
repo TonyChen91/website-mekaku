@@ -1,11 +1,20 @@
 [[list]]
     title = "高醫密室逃脫手遊!製作中!"
-    myConnect = "404.html"
+    myConnect = "https://play.google.com/store/apps/details?id=com.KMUstudio.KMUescape"
     image = "/img/kmu-escape.jpg"
     text = """
         ▌預計2022年7月上架GooglePlay.AppleStore
         ▌免費遊玩! 希望藉由遊戲，讓大家多認識高醫
         ▌讓高醫成為充滿創意的地方!!!
+    """
+[[list]]
+    title = "城中城災情資訊整合平台"
+    myConnect = "/projects/disaster/"
+    image = "img/DM-home3B.jpg"
+    text = """
+        ▌受到G0V的啟發, 我們決定做一個資訊整合平台, 
+        ▌提供給災民以及想幫助的人一個簡單明瞭的共同編輯網頁。
+        ▌本網站將使用API串聯以提供第一手資訊
     """
 [[list]]
     title = "讀書分享會 Reading Not Alone"

@@ -5,7 +5,7 @@ draft: false
 author: "Tony"
 categories: ["其他"]
 tags: ["測試"]
-image: "https://cdn.discordapp.com/attachments/704599857083449366/722677588484423721/luca-bravo-XJXWbfSo2f0-unsplash_1.jpg"
+image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
 hide: false
 type: SpecialLayouts
 layout: Brave

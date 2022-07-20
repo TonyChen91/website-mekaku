@@ -1,9 +1,8 @@
 <div>
   {{ $data := .Site.Data.home }}
-  <main class="container mx-auto mt-8 px-4 xl:px-0">
 <br><br>
 <!--這邊是文章分類這邊是文章文章文章文章文章文章-->
-    <section id="allcategories" class="mt-12" style="margin: 20px">
+    <section id="allcategories" class="" style="max-width: 100rem; margin-inline: auto; padding-inline: 2rem">
       <div class="md:flex justify-center">
         {{ partial "home_title" (dict "title" "所有文章") }}
       </div>
@@ -37,6 +36,5 @@
           <div class="mt-4 text-xl text-center">Projects does not exist</div>
       {{end}}
     </section>
-  </main>
 </div>
 <br><br>

@@ -5,7 +5,7 @@ draft: false
 author: "Tony"
 categories: ["其他"]
 hide: false
-image: "https://cdn.discordapp.com/attachments/704599857083449366/722677588484423721/luca-bravo-XJXWbfSo2f0-unsplash_1.jpg"
+image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
 ---
 5/20- Try to put blank pages on Github.       
 5/21- /hugo commands.  
@@ -61,9 +61,15 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 &emsp;&emsp;&emsp;Slick failed.    
 5/14- Layout update by Figma.  
 &emsp;&emsp;&emsp;**Version 1.9.0 Release.**  
+6/00- Making GooglePlay Game via Unity.  
+7/20- Layout updated.  
+&emsp;&emsp;&emsp;New articles.  
+&emsp;&emsp;&emsp;**Version 1.9.1 Release.**  
 \
 \
 **未完成清單**  
+- [ ] 字體更改
+- [ ] CSS動畫增加
 - [ ] 加入動態slick清單
 - [ ] 連動Instafeed
 - [X] 設置活動頁面    
@@ -81,9 +87,9 @@ image: "https://cdn.discordapp.com/attachments/704599857083449366/72267758848442
 - [X] 關於我們欄位排版問題
 - [X] Nav的引導以及手機板問題(最下策解決方式)
 - [ ] SinglePages, Navibar問題
-- [ ] 手機版網頁顯示問題
+- [X] 手機版網頁顯示問題
 - [ ] text-deco和其文字問題
-- [ ] 熱門文章對齊高度問題
+- [X] 熱門文章對齊高度問題
 - [ ] 從IG連結進來的標題問題  
 
 **Abandonment**
