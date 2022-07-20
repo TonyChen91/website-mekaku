@@ -62,8 +62,8 @@ image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.
 5/14- Layout update by Figma.  
 &emsp;&emsp;&emsp;**Version 1.9.0 Release.**  
 6/00- Making GooglePlay Game via Unity.  
-7/20- Layout updated.  
-&emsp;&emsp;&emsp;New articles.  
+7/20- Layout updated. New articles.   
+&emsp;&emsp;&emsp;Deal with ADblocker's Bugs.   
 &emsp;&emsp;&emsp;**Version 1.9.1 Release.**  
 \
 \
