@@ -5,7 +5,7 @@ draft: false
 author: "Tony"
 categories: ["手札"]
 tags: ["程式"]
-image: "https://chupai.github.io/images/covers/200316_hugo.png"
+image: "/img/hugo.png"
 hide: false
 ---
 **{{< mh 28 >}}{{< mcolor	palevioletred>}}什麼是GitHub和GitHub Page{{< /mcolor >}}{{</mh>}}**
