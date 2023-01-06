@@ -7,6 +7,7 @@ categories: ["其他"]
 hide: false
 image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
 ---
+**{{< mh 20 >}}2020{{</mh>}}**
 5/20- Try to put blank pages on Github.       
 5/21- /hugo commands.  
 &emsp;&emsp;&emsp;Release Prototpye     
@@ -53,7 +54,8 @@ image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.
 &emsp;&emsp;&emsp;New article.    
 8/02- Add shortcut-icon/ bookmark-icon.  
 &emsp;&emsp;&emsp;**Version 1.4.2 Release.**   
-9/15- New Articles.   
+9/15- New Articles.  
+**{{< mh 20 >}}2021{{</mh>}}**
 1/02- New Articles.   
 &emsp;&emsp;&emsp;Slick added.  
 &emsp;&emsp;&emsp;**Version 1.5.0 Release.**  
@@ -64,11 +66,17 @@ image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.
 6/00- Making GooglePlay Game via Unity.  
 7/20- Layout updated. New articles.   
 &emsp;&emsp;&emsp;Deal with ADblocker's Bugs.   
+8/01- **{{< mcolor palevioletred >}}Found my present(and future).{{</mcolor>}}**   
+11/0- Making Qbank(webcrawler).  
+12/0- Making ElearningSpy(ChromeExtension).     
 &emsp;&emsp;&emsp;**Version 1.9.1 Release.**  
+**{{< mh 20 >}}2022{{</mh>}}**
+1/07- Layout updated.  
+&emsp;&emsp;&emsp;**Version 1.9.3 Release.**     
 \
 \
 **未完成清單**  
-- [ ] 字體更改
+- [X] 字體更改
 - [ ] CSS動畫增加
 - [ ] 加入動態slick清單
 - [ ] 連動Instafeed
@@ -88,7 +96,7 @@ image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.
 - [X] Nav的引導以及手機板問題(最下策解決方式)
 - [ ] SinglePages, Navibar問題
 - [X] 手機版網頁顯示問題
-- [ ] text-deco和其文字問題
+- [ ] text-deco問題
 - [X] 熱門文章對齊高度問題
 - [ ] 從IG連結進來的標題問題  
 

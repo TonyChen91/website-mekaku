@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     {{ $data := .Site.Data.home }}
     <section id="ProjectsSection">
+        <span id="SectionTitle">活動計畫</span>
+        <span id="SectionSeeAll">See all</span>
         <div id="ProjectsOverflow">
             {{ range $data.project.list }}
             <div id="projects-content-cards">
@@ -14,8 +17,7 @@
             </div>
             {{end}}   
         </div>
-        <span id="SectionTitle">活動計畫</span>
-        <span id="SectionSeeAll">See all</span>
+    
         
     </section>
     

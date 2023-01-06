@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <section id="GeneralArticlesSection">
-        <span id="SectionTitle2">夏時致知</span>
+        <span id="SectionTitle2">夏時碎片</span>
         <span id="SectionSeeAll">See all</span>
-        <div id="SectionDescription">好多學弟妹問我該如何準備考試。   所以在這邊分享我的升學之路!</div>
-        <!-- <div id="AllCateOverflow">
-            <div id="CateBtn"><a>All</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-        </div> -->
+        <div id="SectionDescription">這一部分的文章，可能是流星的碎片剝落而成。   或許不久就會被刪掉或是被歸類?!</div>
         <div id="ContentCardOverflow">
-            {{ range where .Site.RegularPages ".Params.categories" "intersect" (slice "升學") }}
+            {{ range where .Site.RegularPages ".Params.categories" "intersect" (slice "其他") }}
                 <div class="hover:shadow-2xl transition duration-200 shadow-lg" id="ContentCard-container">      
                     <!-- <div id="ContentCard-stroke"></div> -->
                     <div id="ContentCard-imgoverflow">

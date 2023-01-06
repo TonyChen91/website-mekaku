@@ -1,61 +1,61 @@
 {{ $data := .Site.Data.home }}
-<br><br><br><br>
-<div id="about" class="md:flex justify-center" style="margin: 20px">
+<section id="about">
+  <div class="md:flex justify-around">
     {{ partial "home_title" (dict "title" "關於我們") }}
-</div>
-<section class="md:flex justify-around" >
-
-<!--以下是陳宥任-->
-<figure class="bg-white rounded-xl p-8">
-  <!--插入圖片連結-->
-  <img class="w-32 h-32 rounded-full mx-auto" src="/img/TonyP2.jpg" alt="" width="384" height="512">
-  <div class="pt-6 text-center space-y-4">
-    <blockquote>
-      <p class="text-base font-semibold">
-        “
-        {{ if $data.aboutTony.text}}{{ replace $data.aboutTony.text "\n" "<br />" | safeHTML }}
-        {{else}}It goes wrong{{end}}
-        ”
-      </p>
-    </blockquote>
-    <figcaption class="font-medium">
-      <div style="color:#0D8ABB">
-        Tony Chen
-      </div>
-      <div class="text-gray-500">
-        Medical Student, KMU
-      </div>
-      <div class="mt-3 gap-3 text-xl">
-        {{ range $data.aboutTony.link }}
-        <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
-      </div>
-    </figcaption>
   </div>
-</figure>
-<!--以下是修方良 可用 bg-gray-100來修正-->
-<figure class="bg-white rounded-xl p-8">
-  <img class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP2.jpg" alt="" width="384" height="512">
-  <div class="pt-6 text-center space-y-4">
-    <blockquote>
-      <p class="text-base font-semibold">
-        “
-        {{ if $data.aboutFrank.text}}{{ replace $data.aboutFrank.text "\n" "<br />" | safeHTML }}
-        {{else}}It goes wrong{{end}}
-        ”
-      </p>
-    </blockquote>
-    <figcaption class="font-medium">
-      <div style="color:#0D8ABB">
-        Frank Hsiu
-      </div>
-      <div class="text-gray-500">
-        History Expert, FJU
-      </div>
-      <div class="mt-3 gap-3 text-xl">
-        {{ range $data.aboutFrank.link }}
-        <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
-      </div>
-    </figcaption>
+  <div class="md:flex justify-around">
+      <!--以下是陳宥任-->
+      <figure class="bg-white rounded-xl p-8">
+        <!--插入圖片連結-->
+        <img class="w-32 h-32 rounded-full mx-auto" src="/img/TonyP3.jpg" alt="" width="384" height="512">
+        <div class="pt-6 text-center space-y-4">
+          <blockquote>
+            <p class="text-base font-semibold">
+              “
+              {{ if $data.aboutTony.text}}{{ replace $data.aboutTony.text "\n" "<br />" | safeHTML }}
+              {{else}}It goes wrong{{end}}
+              ”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div style="color:#0D8ABB">
+              Tony Chen
+            </div>
+            <div class="text-gray-500">
+              Medical Student, KMU
+            </div>
+            <div class="mt-3 gap-3 text-xl">
+              {{ range $data.aboutTony.link }}
+              <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
+            </div>
+          </figcaption>
+        </div>
+      </figure>
+      <!--以下是修方良 可用 bg-gray-100來修正-->
+      <figure class="bg-white rounded-xl p-8">
+        <img class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP2.jpg" alt="" width="384" height="512">
+        <div class="pt-6 text-center space-y-4">
+          <blockquote>
+            <p class="text-base font-semibold">
+              “
+              {{ if $data.aboutFrank.text}}{{ replace $data.aboutFrank.text "\n" "<br />" | safeHTML }}
+              {{else}}It goes wrong{{end}}
+              ”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div style="color:#0D8ABB">
+              Frank Hsiu
+            </div>
+            <div class="text-gray-500">
+              History Expert, FJU
+            </div>
+            <div class="mt-3 gap-3 text-xl">
+              {{ range $data.aboutFrank.link }}
+              <a href="{{.url}}"><i class="{{ .icon }}"></i></a>{{end}}
+            </div>
+          </figcaption>
+        </div>
+      </figure>
   </div>
-</figure>
 </section>
