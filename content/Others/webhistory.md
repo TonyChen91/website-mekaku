@@ -74,7 +74,10 @@ image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.
 1/07- Layout updated.  
 &emsp;&emsp;&emsp;**Version 1.9.3 Release.**   
 1/25- New Articles.  
-&emsp;&emsp;&emsp;**Version 1.9.4 Release.**     
+&emsp;&emsp;&emsp;**Version 1.9.4 Release.**  
+2/23- New Articles.  
+&emsp;&emsp;&emsp;Handle imgs aspect-ratio.  
+&emsp;&emsp;&emsp;**Version 1.9.5 Release.**        
 \
 \
 **未完成清單**  
