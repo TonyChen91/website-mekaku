@@ -6,12 +6,18 @@
         <div id="SectionDescription">這邊是Tony x Frank 共同所寫的手札，分享各式各樣的故事!  給喜歡探索和發現的你!</div>
         <div id="AllCateOverflow">
             <div id="CateBtn"><a>All</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
-            <div id="CateBtn2"><a>心得</a></div>
+            {{ $allTags := slice }}
+            {{ range .Site.RegularPages }}
+                {{ range (.GetTerms "tags") }}
+                {{ $allTags = $allTags | append (dict "LinkTitle" .LinkTitle "Permalink" .Permalink) }}
+                {{ end }}
+                <!-- {{ if .Truncated }}
+                <p><a href="{{ .RelPermalink }}">Continue reading...</a></p>
+                {{ end }} -->
+            {{ end }}
+            {{ range uniq $allTags }}
+            <div id="CateBtn2"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+            {{ end }}
         </div>
         <div id="ContentCardOverflow">
             {{ range .Site.RegularPages }}
@@ -19,7 +25,7 @@
                 
                     <!-- <div id="ContentCard-stroke"></div> -->
                     <div id="ContentCard-imgoverflow">
-                        <a href="{{.Permalink}}"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="{{.Params.image}}"/></a>
+                        <a href="{{.Permalink}}"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="{{.Params.image}}" loading="lazy"></a>
                     </div>
                     <div id="ContentCard-tag">{{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}</div>
                     <div id="ContentCard-title"><a href="{{.Permalink}}">{{ .Title }}</a></div>

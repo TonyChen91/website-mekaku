@@ -75,9 +75,11 @@ image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.
 &emsp;&emsp;&emsp;**Version 1.9.3 Release.**   
 1/25- New Articles.  
 &emsp;&emsp;&emsp;**Version 1.9.4 Release.**  
-2/23- New Articles.  
+2/13- New Articles.  
 &emsp;&emsp;&emsp;Handle imgs aspect-ratio.  
-&emsp;&emsp;&emsp;**Version 1.9.5 Release.**        
+&emsp;&emsp;&emsp;**Version 1.9.5 Release.**    
+2/14- Release network=>lazy load img.  
+&emsp;&emsp;&emsp;**Version 1.9.6 Release.**          
 \
 \
 **未完成清單**  
