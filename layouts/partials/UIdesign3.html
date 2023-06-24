@@ -20,7 +20,9 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="{{.Permalink}}"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="{{.Params.image}}" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag">{{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}</div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag">{{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}</div>
+                    </div>
                     <div id="ContentCard-title"><a href="{{.Permalink}}">{{ .Title }}</a></div>
                     <div id="ContentCard-textoverflow"><p>{{ truncate 200 .Summary}}</p></div>
                 </div>
