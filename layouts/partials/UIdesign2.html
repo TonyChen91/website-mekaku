@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="/js/choose.js"></script> <!-- 添加js -->
     <section id="AllArticlesSection">
         <span id="SectionTitle2">夏時手札</span>
-        <span id="SectionSeeAll">See all</span>
+        <span id="SectionSeeAll"><a href="{{ .Site.BaseURL }}categories/手札">See all</a></span>
         <div id="SectionDescription">這邊是Tony x Frank 共同所寫的手札，分享各式各樣的故事!  給喜歡探索和發現的你!</div>
         <div id="AllCateOverflow">
             <div id="CateBtn"><a>All</a></div>
@@ -16,13 +17,12 @@
                 {{ end }} -->
             {{ end }}
             {{ range uniq $allTags }}
-            <div id="CateBtn2"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></div>
+            <div class="CateBtn2"  onclick="toggleColor(this)"><a>{{ .LinkTitle }}</a></div> <!-- href="{{ .Permalink }}" -->
             {{ end }}
         </div>
         <div id="ContentCardOverflow">
             {{ range .Site.RegularPages }}
-            <div class="hover:shadow-2xl transition duration-200 shadow-lg" id="ContentCard-container">
-                
+            <div class="{{ range .Params.tags }}{{ . }} {{end}}hover:shadow-2xl transition duration-200 shadow-lg" id="ContentCard-container"> 
                     <!-- <div id="ContentCard-stroke"></div> -->
                     <div id="ContentCard-imgoverflow">
                         <a href="{{.Permalink}}"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="{{.Params.image}}" loading="lazy"></a>
