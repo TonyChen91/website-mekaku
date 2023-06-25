@@ -6,7 +6,7 @@
         <span id="SectionSeeAll"><a href="{{ .Site.BaseURL }}categories/手札">See all</a></span>
         <div id="SectionDescription">這邊是Tony x Frank 共同所寫的手札，分享各式各樣的故事!  給喜歡探索和發現的你!</div>
         <div id="AllCateOverflow">
-            <div id="CateBtn"><a>All</a></div>
+            <div id="CateBtn" onclick="toggleAll(this)"><a>All</a></div>
             {{ $allTags := slice }}
             {{ range .Site.RegularPages }}
                 {{ range (.GetTerms "tags") }}
