@@ -2,6 +2,8 @@ baseURL = "https://TonyChen91.github.io/"
 languageCode = "en-us"
 title = "Mekaku's Site"
 
+relativeURLs = true
+canonifyURLs = true
 
 #theme = ""
 #publishDir = "public"
