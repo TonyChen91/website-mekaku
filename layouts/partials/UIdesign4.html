@@ -15,7 +15,12 @@
                         <div id="ContentCard-tag">{{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}</div>
                     </div>
                     <div id="ContentCard-title"><a href="{{.Permalink}}">{{ .Title }}</a></div>
-                    <div id="ContentCard-textoverflow"><p>{{ truncate 200 .Summary}}</p></div>
+                    <!-- <div id="ContentCard-textoverflow"><p>{{ truncate 200 .Summary}}</p></div> -->
+                    <div id="ContentCard-textoverflow"><p>
+                        {{ $summary := .Summary | plainify | truncate 200 }} 
+                        {{ $content := replaceRE "(?s)<img[^>]*>(.*)" "" $summary }} 
+                        {{ $content }}
+                    </p></div>
                 </div>
             {{end}}
         </div>

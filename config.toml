@@ -1,7 +1,7 @@
 baseURL = "https://TonyChen91.github.io/"
 languageCode = "en-us"
 title = "Mekaku's Site"
-DisqusShortname= "TonyChen91"
+
 
 #theme = ""
 #publishDir = "public"
@@ -12,6 +12,7 @@ DisqusShortname= "TonyChen91"
     mainTitle = "夏時紀錄" #主標
     mainText = "Tony x Frank 說書小站" #副標
     Version = "1.9.6"
+    DisqusShortname= "TonyChen91"
 #https://picsum.photos/1920/1080
 #https://i.picsum.photos/id/1040/1920/1080.jpg?hmac=cBk3ftMGNLK8W8U-vJpH_lroG5UMIZChcP6zRn1QaHg
 #https://i.picsum.photos/id/563/1920/1080.jpg?hmac=q-crUEfV34UnGAk6wr29t1tQ91W9D8pDgyXts7ZIW98
@@ -38,3 +39,8 @@ DisqusShortname= "TonyChen91"
     M0= "tags"
     M1= "categories"
     M2= "author"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
